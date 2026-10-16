@@ -25,3 +25,10 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 Desktop.ini
+#OpenAicodex
+.openai/
+
+# Keep the deployment manifest in source control
+!.openai/
+.openai/*
+!.openai/hosting.json
